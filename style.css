@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav {
+    background-color: #71c4fc;
+}
+
+.nav-link {
+    font-size: larger;
+    font-weight: 600;
+    color: #3f3e3e;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.img-container {
+    width: 100%;
+    height: 500px;
+}
+
+.container-info {
+    background-image: url(./image/MedicalEquipment.jpg);
+    width: 800px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box {
+    width: 70%;
+    background-color: #6c757d;
+    border-radius: 10px;
+    padding: 1.5rem;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.box div {
+    width: 100%;
+    height: 100%;
+}
+
+.box div div {
+    width: 100%;
+}
+
+.box div div p {
+    padding: 0 15px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.profile-btn {
+    font-weight: bold;
+}
+
+.profile-btn:hover {
+    background-color: #99a7b3;
+}
+
+.description {
+    font-size: 15px;
+    background-color: #6c757d;
+    color: #71c4fc;
+    margin: 90px 0;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.info-card {
+    width: 300px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+.info-card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+footer {
+    background: linear-gradient(to right, #585b59, #7bb3de);
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+@media (max-width: 768px) {
+    .container-info {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box {
+        width: 60%;
+        font-size: 10px;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .box {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .img-container {
+        height: 400px;
+    } 
+    
+    .container-info {
+        width: 100%;
+    }
+}
